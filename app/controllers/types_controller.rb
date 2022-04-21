@@ -3,14 +3,6 @@ class TypesController < ApplicationController
     types = Type.all
 
     render json: types
-
-    # request = HTTP.get("https://pokeapi.co/api/v2/type?limit=18&offset=0")
-
-    # types = request.parse(:json)
-
-    # all_types = types["results"]
-
-    # render json: all_types
   end
 
   def show
