@@ -1,3 +1,3 @@
 class Type < ApplicationRecord
-  has_many :damage_relations_overviews
+  belongs_to :damage_relations_overview
 end
