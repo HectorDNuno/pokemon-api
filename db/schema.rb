@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_04_22_035715) do
+ActiveRecord::Schema[7.0].define(version: 2022_04_22_061232) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -20,6 +20,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_04_22_035715) do
     t.integer "neutral"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "resistances"
   end
 
   create_table "types", force: :cascade do |t|
@@ -29,7 +30,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_04_22_035715) do
     t.integer "moves_with_type"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "damage_relations_overview"
+    t.integer "damage_relations_overview_id"
   end
 
 end
