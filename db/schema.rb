@@ -10,9 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_04_22_033935) do
+ActiveRecord::Schema[7.0].define(version: 2022_04_22_034528) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "damage_relations_overviews", force: :cascade do |t|
+    t.integer "weaknesses"
+    t.integer "strengths"
+    t.integer "neutral"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "types", force: :cascade do |t|
     t.string "name"
