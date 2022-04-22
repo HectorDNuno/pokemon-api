@@ -1,0 +1,10 @@
+@types.map do |type|
+  {
+    id: type.id,
+    name: type.name,
+    image_url: type.image_url,
+    pokemon_with_type: type.pokemon_with_type,
+    moves_with_type: type.moves_with_type,
+    damage_relations_overview: type.damage_relations_overview,
+  }
+end

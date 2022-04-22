@@ -1,0 +1,9 @@
+@damage_relations_overviews.map do |damage_relations_overview|
+  {
+    id: damage_relations_overview.id,
+    weaknesses: damage_relations_overview.weaknesses,
+    strengths: damage_relations_overview.strengths,
+    neutral: damage_relations_overview.neutral,
+    resistances: damage_relations_overview.resistances,
+  }
+end

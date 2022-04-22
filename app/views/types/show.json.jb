@@ -1,0 +1,5 @@
+{
+  id: @type.id,
+  created_at: @type.created_at,
+  updated_at: @type.updated_at
+}
