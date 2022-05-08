@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This serves as the backend to my capstone project. My capstone allows users to see the type relationships in the video game Pokémon. I make get requests to the PokéAPI to get most of my data for my frontend. I created some models to use as a general overview of all 18 types. 
 
-Things you may want to cover:
+I used ruby on rails to make this backend. The ruby version I used is 3.0.3p157. 
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Run `bundle install` on the command line, then create a database with `rails db:create`, and finally migrate the database with `rails db:migrate`. To see the data run `rails server` on the commandline and then use the requests.http file to make either an index or a show request. 
