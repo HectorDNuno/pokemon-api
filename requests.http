@@ -1,2 +1,5 @@
 ### index
-GET 
+GET http://localhost:3000/types.json
+
+###show
+GET http://localhost:3000/types/water
