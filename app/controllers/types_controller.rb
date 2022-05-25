@@ -1,8 +1,8 @@
 class TypesController < ApplicationController
   def index
-    @types = Type.all
+    types = Type.all
 
-    render :index
+    render json: types
   end
 
   def show
