@@ -2,7 +2,7 @@ class TypesController < ApplicationController
   def index
     @types = Type.all
 
-    render :index
+    render template: "types/index"
   end
 
   def show
