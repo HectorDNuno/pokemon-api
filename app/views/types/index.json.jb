@@ -5,6 +5,6 @@
     image_url: type.image_url,
     pokemon_with_type: type.pokemon_with_type,
     moves_with_type: type.moves_with_type,
-    damage_relations_overview: type.damage_relations_overview_id,
+    damage_relations_overview: damage_relations_overview.weaknesses,
   }
 end
